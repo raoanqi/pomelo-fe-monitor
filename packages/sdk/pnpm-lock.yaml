@@ -1,0 +1,23 @@
+lockfileVersion: 5.4
+
+specifiers:
+  lodash-es: ^4.17.21
+  prettier: ^3.1.0
+
+dependencies:
+  lodash-es: 4.17.21
+
+devDependencies:
+  prettier: 3.1.0
+
+packages:
+
+  /lodash-es/4.17.21:
+    resolution: {integrity: sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==}
+    dev: false
+
+  /prettier/3.1.0:
+    resolution: {integrity: sha512-TQLvXjq5IAibjh8EpBIkNKxO749UEWABoiIZehEPiY4GNpVdhaFKqSTu+QrlU6D2dPAfubRmtJTi4K4YkQ5eXw==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dev: true
