@@ -1,18 +1,22 @@
 {
-  "name": "sdk",
+  "name": "pomelo-fe-monitor-sdk",
   "version": "1.0.0",
+  "author": "晓月清岚",
+  "license": "MIT",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib/ --verbose --copy-files && node script/build.js"
   },
-  "keywords": [],
-  "author": "晓月清岚",
-  "license": "ISC",
-  "devDependencies": {
-    "prettier": "^3.1.0"
-  },
+  "keywords": [
+    "monitor",
+    "sdk"
+  ],
   "dependencies": {
     "lodash-es": "^4.17.21"
+  },
+  "devDependencies": {
+    "shelljs": "^0.8.5"
   }
 }

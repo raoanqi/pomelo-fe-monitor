@@ -1,11 +1,15 @@
 {
-  "name": "root",
-  "private": true,
-  "workspaces": [
-    "packages/*"
+  "name": "pomelo-fe-monitor",
+  "author": "晓月清岚",
+  "license": "MIT",
+  "keywords": [
+    "monitor",
+    "sdk",
+    "client",
+    "server"
   ],
   "devDependencies": {
     "lerna": "^7.4.1",
-    "prettier": "^3.1.0"
+    "prettier": "3.0.3"
   }
 }
